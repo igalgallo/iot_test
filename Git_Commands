@@ -1,0 +1,11 @@
+# assuming the starting point is at a local directory.
+
+ls
+cd <to_ur_locol_directory>
+git init
+git add .
+git commit -m "your message"
+git remote add origin <url_to_your_git_repo.git>
+git status # check if all is good b4 pushing to git
+git push origin master
+git status
